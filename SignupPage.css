@@ -1,0 +1,68 @@
+body{
+    background-image: linear-gradient(to right top ,skyblue,white,palegreen) ;
+    height: 680px;
+}
+.content{
+    position: relative;
+    
+    left: 300px;;
+    top:10px;
+    width: 50%;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+}
+form>div{
+    height: 40px;
+    margin: 10px;
+    display: flex;
+}
+.a{
+    margin:5px;
+    height: 70%;
+    width: 50%;
+    display: flex;
+}
+.state,.country,.pincode,.userName,.phoneNumber,.gender,.password,.email{
+    margin:5px;
+    height: 70%;
+    width: 100%;
+    display: flex;
+}
+.state,.country,.pincode{
+    width: 33.33%;
+}
+.text{
+
+    width: 160px;
+    height: 100%;
+}
+.a>.text{
+    width: 120px;
+}
+.name,.user,.email1,.phone,.gen,.pass{
+ 
+    margin:2px;
+    width: 200px;
+    height: 80%;
+}
+.user,.phone,.email1,.gen,.pass{
+    width: 500px;
+}
+.button{
+ 
+    margin:3px;
+    width: 100%;
+    height: 80%;
+}
+input[type=text],input[type=password]{
+    width: 100%;
+}
+button{
+    width: 100%;
+    height: 100%;
+    background-color: aquamarine;
+}
+.intrest{
+    height: 100px;
+}

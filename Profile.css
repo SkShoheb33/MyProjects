@@ -1,0 +1,42 @@
+body{
+    background-image: linear-gradient(to left top ,rgb(230, 172, 172),white,skyblue) ;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    top:10px;
+    left:200px;
+   
+    height: 600px;
+    width: 70%;
+}
+.a{
+   
+    flex-basis: 30px;
+    margin: 10px;
+    display: flex;
+}
+.text{
+  
+    width:160px;
+    height: 80%;
+    margin: 2px;
+}
+.input{
+    
+    width:80%;
+    height: 80%;
+    margin: 2px;
+}
+.edit,.save{
+  
+    width: 50%;
+    height: 80%;
+    margin:2px;
+}
+button{
+    width: 100%;
+    background-color: yellowgreen;
+}
